@@ -1,0 +1,312 @@
+/* body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+.odd{
+    color: hsl(0, 85%, 55%);
+}
+
+.even{
+    color: blueviolet;
+}
+#p1{ background-color: aqua;}
+
+#p2{ background-color: yellow;}
+#p3{ background-color: aqua;}
+#p4{ background-color: rosybrown;} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  em - 100percent 
+*/
+
+/* @font-face{
+    src:url(fonts/Roboto-light.ttf);
+    font-family:Roboto-light ;
+}
+
+h1{
+    font-family: serif ;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em; 
+    font-weight: bold;
+    font-style: italic;
+} */ 
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+ /* h1{
+    border: 3px solid hsl(262, 100%, 56%);
+    border-radius: 20px;
+ }
+
+ p{
+    border-bottom: 3px solid red;
+    border-top: 1px dotted rgb(44, 44, 3);
+    border-left:3px solid rosybrown;
+    border-right: 3px dotted rgb(60, 160, 237);
+
+    border-radius: 10px;
+ } */
+
+ /*  text shadow 
+    3px 3px 3px hsl = horizontal , vertical , blur, color 
+    box shadow
+     */
+
+    /* h1{
+        text-shadow: -8px -6px 5px orange,8px 6px 5px rgb(15, 153, 222)
+    }
+    #box1{
+        width: 100px;
+        height: 100px;
+        background-color: aliceblue;
+        box-shadow: 3px 3px 5px;
+    } */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+margin:auto; margin:0px; */
+
+/* body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+#box1{
+    background-color: hsl(0, 92%, 50%);
+}
+#box2{
+    background-color: hsl(200, 77%, 42%);
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* 
+body{
+    border: 3px solid ;
+    display: flow-root;
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+
+#img2{
+    float: right;
+    margin-right: 10px;
+} */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* div{ */
+    /* border: 2px solid; */
+    /* height: 75px; */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+    /* overflow: auto; */
+    /* overflow: clip; */
+    /* overflow-clip-margin: 13px; */
+    /* overflow: hidden; */
+/* } */
+/* 
+div{
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    /* display: inline; */
+    /* display: inline-block; */
+    /* display: block; */
+    /* display: none; */
+    /* visibility: hidden; */
+ /* }  */
+
+/* span{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* display: inline; */
+    /* display: inline-block; */
+    /* display: block; */
+    /* display: none; */
+    /* visibility: hidden; */
+/* }  */
+/* 
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: gray;
+    height: 100vh;
+}
+
+.box{
+    background-color: aqua;
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    max-width: 85%;
+    min-height: 65%;
+} */
+
+/*~~~~~~~~~~~~~~~~~~~~~ position ~~~~~~~~~~~~~~~~~~~~ */
+
+/* relative */
+/* #box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8, 171, 247);
+    position: relative;
+    top: -100px;
+    left: -100px; 
+} */
+
+/* fixed */
+/* #box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8, 171, 247);
+    position: fixed; 
+    right: 0px;
+    bottom: 0px;
+} */
+
+/* absolute */
+/* 
+ #box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8, 171, 247);
+    position: relative; 
+    top: 100px;
+    left: 100px;
+    
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 247, 76);
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    
+} */
+
+/* sticky */
+/*
+ #box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8, 171, 247);
+    position: sticky; 
+    top: 0px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 247, 76);
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    
+} */
+
+/* sticky */
+
+/* #box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8, 171, 247);
+    position: sticky; 
+    top: 0px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 247, 76);
+    position: static; 
+    top: 50px;
+    left: 50px;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
