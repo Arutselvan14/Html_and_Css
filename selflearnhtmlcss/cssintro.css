@@ -241,21 +241,456 @@ div{
     
 } */
 
+/* ------------------------------------------------------ */
+/* background image */
+/* 
+body{
+    background-image: url(narutoo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+/* ------------------------------------------------------ */
+
+/* combinators */
+/* #container{
+    border: 2px solid;
+}
+#container  p{
+    background-color: yellow;
+}
+#container ~ p{
+    background-color: rgb(255, 85, 0);
+}
+#container > p{
+    background-color: rgb(21, 170, 216);
+}
+
+#container + p{
+    background-color: rgb(19, 182, 24);
+} */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* pseudo */
+
+/* a:link{
+    color: hsl(221, 100%, 74%);
+}
+a:hover{
+    color:  hsl(221, 100%, 86%);
+    font-size:1.1em ;
+}
+a:active{
+    color: rgb(51, 51, 255);
+    font-size: 1.1em;
+}
+
+a:visited{
+    color: grey;
+} */
+
+/* li:hover{
+    background-color: yellow;
+}
+
+li:not(:hover){
+    background-color: beige;
+} */
+/* selected child */
+/* li:nth-child(3){
+    background-color:yellow ;
+} */
+/* square child */
+/* li:nth-child(3n){
+    background-color:yellow ;
+} */
+
+/* #greeting p{
+    background-color: hsl(196,100%,81%);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* pseudo element */
+
+/* h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: aqua;
+}
+
+p::selection{
+    color: white;
+    background-color: rgb(33, 203, 41);
+}
+
+#fruit li::before{
+    content: '😄';
+}
+
+#apple::after{
+    content: '🍎';
+}
+#orange::after{
+    content: '🍊';
+}#banana::after{
+    content: '🍌';
+}
+
+#fruit li::marker{
+    content: '✔️';
+    color: green;
+    font-size: 1.1em;
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* pagination */
+
+/* .pagination{
+    text-align: center;
+}
+
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color:rgb(81, 228, 81) ;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: greenyellow ;
+    border-radius: 5px;
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* --------------dropdown--------- */
+
+/* .dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color:hsl(0,0%,80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsl(0,0%,95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0,0%,0%,0.8);
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: hsl(0,0%,70%);
+}
+.dropdown a:hover{
+    background-color:  hsl(0,0%,90%);
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* navbar */
+/* body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:rgb(131, 218, 218);
+}
+.navbar li{
+    float: left;
+} */
 
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
+/* *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: hsl(0,0%,86%);
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar{
+    background-color: rgb(52, 52, 52);
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0,0%,86%);
+    text-align: center;
+    padding: 25px;
+}
+
+@media screen and (max-width:600px){
+    aside,section,article{
+        width: 100%;
+    }
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* 
+.gallery{
+    display:inline-block ;
+    border: 1px solid hsl(0,0%,60%);
+    margin: 5px;
+    width: 200px;
+}
+
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover{
+    border: 1px solid hsl(0,0%,20%);
+    
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* icons */
+/* 
+.icons a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.icons{
+    font-size: 75px;
+    text-align: center;
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* flex box */
+
+/* .container{ */
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* border: 5px solid black; */
+    /* height: 90vh; */
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start; */
+    /* column-gap: 1em; */
+    /* row-gap: 10px; */
+/* } */
+
+/* 
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+/* #box1{
+    background-color: aqua;
+    /* align-self: center; */
+    /* order: 4;
+} */ 
+/* #box2{
+    background-color: rgb(202, 16, 158);
+}
+#box3{
+    background-color: rgb(22, 191, 44);
+}
+#box4{
+    background-color: rgb(8, 140, 206);
+} */ 
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* body{
+    margin: 0;
+} */
+
+/* .box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center; */
+
+    /* transform: translateX(-100px); */
+    /* transform: translateY(100px); */
+    /* transform: translate(100px,200px); */
+
+    /* transform: rotateX(135deg); */
+    /* transform: rotateY(135deg); */
+    /* transform: rotateZ(135deg); */
+
+    /* transform: scaleX(5); */
+    /* transform: scaleY(0.23); */
+    /* transform: scale(2,2); */
+
+    /* transform: skewX(45deg); */
+    /* transform: skewY(58deg); */
+    /* transform: skew(2deg,45deg); */
+
+  /* transform: translateX(100px) rotateZ(45deg) scale(0.5); */
 
 
+/* } */
+/* 
+#box1{
+    background-color: rgb(58, 246, 58);
+
+}
+#box2{
+    background-color: rgb(25, 170, 227);
+
+}
+#box3{
+    background-color: rgb(58, 246, 58);
+
+} */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
 
 
+/* body{
+    background-color: black;
+} */
+/* #box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(237, 92, 92);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideleft; 
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function:ease-in-out ;
 
+} */
+/* 
+#box:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+}
+#box:active{
+    animation-name: glow;
+    animation-duration: 2s;
+} */
+/* @keyframes slideleft{
+    from{transform: translateX(600px);}
+}
+@keyframes slideright{
+    to{transform: translateX(600px);}
+}
+@keyframes slideup{
+    from{transform: translateY(600px);}
+}
+@keyframes slidedown{
+    to{transform: translateY(600px);}
+}
+@keyframes rotate{
+    50%{transform: rotateZ(360deg);}
+}
+@keyframes grow{
+    50%{transform: scale(2,2)}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5,0.5)}
+}
+@keyframes fade{
+    50%{opacity: 0;}
+}
 
+@keyframes colorchange{
+    0%{background-color: red;}
+    20%{background-color: rgb(10, 132, 198);}
+    40%{background-color: rgb(213, 220, 14);}
+    60%{background-color: rgb(30, 198, 89);}
+    80%{background-color: rgb(2, 32, 183);}
+    100%{background-color: rgb(212, 17, 125);}
+}
 
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow;}
+}
 
-
-
-
-
-
+ */
 
 
 
